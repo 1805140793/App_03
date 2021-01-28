@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_text_titulo" />
+
+    <EditText
+        android:id="@+id/et_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_codigo"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_telefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickIngresar"
+        android:text="@string/button_text_agregar" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickBuscar"
+        android:text="@string/button_text_buscar" />
+
+    <Button
+        android:id="@+id/btn_modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickModificar"
+        android:text="@string/button_text_modificar" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickEliminar"
+        android:text="@string/button_text_eliminar" />
+
+    <Button
+        android:id="@+id/btn_limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cliclLimpiar"
+        android:text="@string/button_text_limpiar" />
+
+    <Button
+        android:id="@+id/btn_mostrarContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickMostrarContactos"
+        android:text="@string/button_text_mostrarContactos" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Action Bar</string>
+
+    <string name="textview_text_titulo">Mantenimientos: Contactos</string>
+    <string name="textview_text_listaContactos">Lista de Contactos</string>
+
+    <string name="edittex_hint_codigo">Ingrese el codigo</string>
+
+    <string name="edittex_hint_nombre">Ingrese su Nombre</string>
+    <string name="edittex_hint_apellido">Ingrese su Apellido</string>
+    <string name="edittex_hint_telefono">Ingrese el teléfono</string>
+    <string name="edittex_hint_email">Ingrese el correo</string>
+
+    <string name="button_text_agregar">Agregar</string>
+    <string name="button_text_buscar">Buscar</string>
+    <string name="button_text_modificar">Modificar</string>
+    <string name="button_text_eliminar">Borrar</string>
+
+    <string name="button_text_limpiar">Limpiar</string>
+    <string name="button_text_mostrarContactos">Mostrar Contactos</string>
+
+    <string name="menu_archivo">Archivo</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_acercaDe">Acerca de...</string>
+
+    <string name="menu_listaContactos">Lista de Contactos</string>
+
+    <string name="menu_cortar">Cortar</string>
+    <string name="menu_copiar">Copiar</string>
+    <string name="menu_pegar">Pegar</string>
+</resources>
